@@ -5,6 +5,8 @@ import 'package:expense_tracker/widgets/expenses.dart';
 var kColorScheme =
     ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 96, 59, 181));
 
+
+
 void main() {
   runApp(
     MaterialApp(
@@ -26,9 +28,9 @@ void main() {
         ),
         textTheme: ThemeData().textTheme.copyWith(
               titleLarge: TextStyle(
-                fontWeight: FontWeight.normal,
-                color: kColorScheme.onSecondary,
-                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                color: kColorScheme.onSecondaryContainer,
+                fontSize: 16,
               ),
             ),
         
