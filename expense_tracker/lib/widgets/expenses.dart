@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:expense_tracker/widgets/new_expense.dart';
 import 'package:flutter/material.dart';
 
