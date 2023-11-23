@@ -44,9 +44,9 @@ class _NewExpenseState extends State<NewExpense> {
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
-          title: const Text('Error !'),
+          title: const Text('Error Occurred!'),
           content: const Text(
-              'Please make sure a valid title, amount, date and category was entered..'),
+              'Please Make Sure A Valid Title, Amount, Date & Category Was Entered..'),
           actions: [
             TextButton(
               onPressed: () {

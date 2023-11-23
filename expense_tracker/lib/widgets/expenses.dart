@@ -42,7 +42,7 @@ class _ExpensesState extends State<Expenses> {
     ScaffoldMessenger.of(context).clearSnackBars();
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        duration: Duration(seconds: 3),
+        duration: const Duration(seconds: 3),
         action: SnackBarAction(
             label: 'Undo',
             onPressed: () {
@@ -58,7 +58,7 @@ class _ExpensesState extends State<Expenses> {
   @override
   Widget build(BuildContext context) {
     Widget mainContent = const Center(
-      child: Text('NO expenses found. Start adding some!'),
+      child: Text('No Expenses Found. Start Adding Some!'),
     );
 
     if (_registeredExpenses.isNotEmpty) {
